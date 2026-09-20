@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Min Thway Khant — Computer Engineering student building across networking, software, cloud and AI.">
+  <meta name="theme-color" content="#0a0d12">
+  <title>Min Thway Khant — Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header" id="top">
+    <nav class="nav shell">
+      <a class="brand" href="#top" aria-label="Min Thway Khant home">Min Thway Khant<span>.</span></a>
+      <button class="menu-btn" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact" class="nav-cta">Let's talk ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="kicker"><span class="status-dot"></span> COMPUTER ENGINEERING · THAILAND</p>
+        <h1>Min Thway Khant</h1>
+        <p class="hero-lead"><strong>Computer Engineering student focused on software development and AI engineering</strong>, with hands-on experience building full-stack systems and a strong foundation in networking and cloud.</p>
+        <div class="hero-actions">
+          <a class="button button-main" href="#projects">View selected work <span>↓</span></a>
+          <a class="button button-ghost" href="assets/Min-Thway-Khant-Resume.pdf" target="_blank" rel="noopener">Open résumé ↗</a>
+        </div>
+        <div class="hero-meta">
+          <div><span>GPA</span><strong>3.98 / 4.00</strong></div>
+          <div><span>EXPECTED</span><strong>2028</strong></div>
+          <div><span>LOOKING FOR</span><strong>Internship</strong></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Professional profile photo">
+  <div class="profile-card">
+
+    <div class="card-top">
+      <span>PROFILE / 01</span>
+      <span>COMPUTER ENGINEERING</span>
+    </div>
+
+    <img 
+      class="profile-photo"
+      src="assets/projects/profile_photo.jpg"
+      alt="Min Thway Khant"
+    >
+
+    <div class="profile-bottom">
+      <span>MIN THWAY KHANT</span>
+      <span>CE · IT · AI</span>
+    </div>
+
+  </div>
+</div>
+    </section>
+
+    <section class="marquee" aria-label="Areas of interest">
+      <div class="marquee-track"><span>SOFTWARE DEVELOPMENT</span><i>✦</i><span>AI / ML</span><i>✦</i><span>NETWORKING</span><i>✦</i><span>CLOUD</span><i>✦</i><span>SECURITY</span><i>✦</i></div>
+    </section>
+
+    <section class="section shell" id="about">
+      <div class="section-head"><p class="section-number">01 / ABOUT</p><span>ENGINEERING · LEARNING · BUILDING</span></div>
+      <div class="about-grid">
+        <h2>One foundation.<br><span>Multiple directions.</span></h2>
+        <div class="about-copy">
+          <p class="lead-copy">I am especially interested in software development and AI engineering, supported by a strong foundation in networking and IT infrastructure.</p>
+          <p>I learn by building: writing applications, testing ideas, debugging systems, configuring networks and working with teammates to turn requirements into something usable.</p>
+          <p>As a <strong>Team Leader / Project Manager & Developer</strong>, I take responsibility for both coordination and implementation — planning the work, dividing tasks, contributing code, integrating components and helping the team deliver.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark projects-new" id="projects">
+  <div class="shell">
+
+    <div class="section-head">
+      <p class="section-number">02 / SELECTED WORK</p>
+      <span>PROJECTS & TECHNICAL WORK</span>
+    </div>
+
+    <div class="projects-intro">
+      <div>
+        <p class="kicker">SELECTED PROJECTS</p>
+        <h2>Things I've<br><span>built.</span></h2>
+      </div>
+
+      <p>
+        A selection of team projects, academic systems and technical work.
+        In these projects, I took responsibility for both
+        <strong>team leadership and development.</strong>
+      </p>
+    </div>
+
+
+    <!-- PROJECT GRID -->
+    <div class="clean-project-grid">
+
+      <!-- HCIA E-LEARNING -->
+      <article class="clean-project-card" data-project="elearning">
+        <button class="clean-project-image" aria-label="View HCIA Datacom E-Learning Platform screenshots">
+          <img src="assets/projects/hcia-elearning/welcome.png" alt="HCIA Datacom E-Learning Platform welcome page" loading="lazy">
+          <div class="image-overlay"><span>VIEW PROJECT</span><span>↗</span></div>
+          <div class="project-number">03</div>
+        </button>
+        <div class="clean-project-content">
+          <div class="clean-project-top"><span>SENIOR PROJECT</span><span>2026 — PRESENT</span></div>
+          <h3>HCIA Datacom E-Learning Platform</h3>
+          <p>A team-built learning platform for networking students with structured HCIA Datacom modules, quizzes, mock tests and practical networking laboratory tutorials.</p>
+          <div class="clean-role"><span>MY ROLE</span>Project Management, Developer</div>
+          <div class="clean-tags"><span>Web Platform</span><span>Networking Education</span><span>Quiz Systems</span></div>
+          <button class="view-project-btn" onclick="openProject('elearning')">View screenshots →</button>
+        </div>
+      </article>
+
+      <!-- ROOM RESERVATION -->
+      <article class="clean-project-card" data-project="room">
+
+        <button class="clean-project-image" aria-label="View Room Reservation System screenshots">
+          <img
+            src="assets/projects/roomreservation/login.png"
+            alt="Room Reservation System staff room management"
+            loading="lazy"
+          >
+
+          <div class="image-overlay">
+            <span>VIEW PROJECT</span>
+            <span>↗</span>
+          </div>
+
+          <div class="project-number">01</div>
+        </button>
+
+        <div class="clean-project-content">
+
+          <div class="clean-project-top">
+            <span>TEAM PROJECT</span>
+            <span>2025 — 2026</span>
+          </div>
+
+          <h3>Room Reservation System</h3>
+
+          <p>
+            A room reservation platform for study, multimedia and meeting
+            rooms, featuring booking requests, approval workflows, booking
+            history and staff-side room management.
+          </p>
+
+          <div class="clean-role">
+            <span>MY ROLE</span>
+            Team Leader / Project Manager & Developer
+          </div>
+
+          <div class="clean-tags">
+            <span>Web / App</span>
+            <span>Booking System</span>
+            <span>Role-based Workflow</span>
+          </div>
+
+          <button
+            class="view-project-btn"
+            onclick="openProject('room')"
+          >
+            View screenshots →
+          </button>
+
+        </div>
+      </article>
+
+
+      <!-- ASSET BORROWING -->
+      <article class="clean-project-card" data-project="asset">
+
+        <button class="clean-project-image" aria-label="View Asset Borrowing System screenshots">
+          <img
+            src="assets/projects/assetmanage/asset-login.png"
+            alt="Asset Borrowing System staff dashboard"
+            loading="lazy"
+          >
+
+          <div class="image-overlay">
+            <span>VIEW PROJECT</span>
+            <span>↗</span>
+          </div>
+
+          <div class="project-number">02</div>
+        </button>
+
+        <div class="clean-project-content">
+
+          <div class="clean-project-top">
+            <span>TEAM PROJECT</span>
+            <span>WEB SYSTEM</span>
+          </div>
+
+          <h3>Asset Borrowing System</h3>
+
+          <p>
+            A role-based asset management system covering asset browsing,
+            borrowing requests, approval workflows, returned assets and
+            borrowing history.
+          </p>
+
+          <div class="clean-role">
+            <span>MY ROLE</span>
+            Team Leader / Project Manager & Developer
+          </div>
+
+          <div class="clean-tags">
+            <span>HTML / CSS / JS</span>
+            <span>Node.js</span>
+            <span>MySQL</span>
+          </div>
+
+          <button
+            class="view-project-btn"
+            onclick="openProject('asset')"
+          >
+            View screenshots →
+          </button>
+
+        </div>
+      </article>
+
+
+      
+
+
+      <!-- RURAL HEALTHCARE -->
+      <article class="clean-project-card clean-project-no-image" data-project="hugmae">
+
+        <div class="no-image-header">
+          <video
+            class="project-card-video"
+            src="assets/projects/hugmae/scan-patient-medgo.mp4"
+            muted
+            playsinline
+            preload="metadata"
+            aria-label="Hugmae healthcare application preview"
+          ></video>
+          <div class="project-number">04</div>
+        </div>
+
+        <div class="clean-project-content">
+
+          <div class="clean-project-top">
+            <span>HACKATHON</span>
+            <span>2025 — 2026</span>
+          </div>
+
+          <h3>Offline-First Rural Healthcare Application</h3>
+
+          <p>
+            An AI-powered offline-first healthcare concept designed to
+            improve access to healthcare services in underserved and
+            rural communities.
+          </p>
+
+          <div class="achievement-small">
+            TOP 21 NATIONAL FINALIST
+          </div>
+
+          <div class="clean-role">
+            <span>MY ROLE</span>
+            Team Leader / Project Manager & Solution Contributor
+          </div>
+
+          <div class="clean-tags">
+            <span>AI</span>
+            <span>Healthcare Tech</span>
+            <span>Offline-first</span>
+          </div>
+
+          <button class="view-project-btn" onclick="openProject('hugmae')">
+            View project media →
+          </button>
+
+        </div>
+      </article>
+
+    </div>
+
+
+    <!-- GITHUB -->
+    <div class="project-footer">
+      <span>MORE PROJECTS & CODE</span>
+
+      <a
+        href="https://github.com/minthwaykhant711?tab=repositories"
+        target="_blank"
+        rel="noopener"
+      >
+        Explore my GitHub repositories ↗
+      </a>
+    </div>
+
+  </div>
+</section>
+
+    <section class="section shell" id="skills">
+      <div class="section-head"><p class="section-number">03 / TOOLKIT</p><span>TECHNICAL SKILLS</span></div>
+      <div class="skills-grid">
+        <div class="skill-hero"><p class="kicker">WHAT I WORK WITH</p><h2>From ideas<br>to products.</h2><p>I build software and explore AI while bringing strong networking, cloud and security fundamentals.</p></div>
+        <div class="skill-columns">
+          <div class="skill-group"><h3>Networking</h3><p>TCP/IP · IPv4/IPv6 · Routing & Switching · Subnetting · WLAN · VLAN · OSPF · BGP · MPLS · MSTP · ACL · AAA</p></div>
+          <div class="skill-group"><h3>Programming</h3><p>Python · Java · C# · JavaScript · HTML · CSS · Node.js · Git · GitHub</p></div>
+          <div class="skill-group"><h3>AI / ML</h3><p>Machine Learning Foundations · Deep Learning · AI Applications · Image-Based Learning · Python</p></div>
+          <div class="skill-group"><h3>Software Development</h3><p>Full-Stack Systems · REST APIs · Role-Based Workflows · Testing · Team Delivery</p></div>
+          <div class="skill-group"><h3>Cloud & Systems</h3><p>Cloud Computing · AWS Cloud Foundations · Huawei Cloud · Virtualization · Windows · Linux · Kali · Ubuntu</p></div>
+          <div class="skill-group"><h3>Security & Database</h3><p>Network Security Fundamentals · MySQL · phpMyAdmin</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper" id="achievements">
+      <div class="shell">
+        <div class="section-head"><p class="section-number">04 / TRACK RECORD</p><span>ACHIEVEMENTS · EDUCATION · CREDENTIALS</span></div>
+        <div class="timeline-grid">
+          <div class="timeline">
+            <article><time>2024 — 2025</time><div><h3>Huawei ICT Competition — Networking</h3><p>Won the National Grand Prize in Thailand, represented Thailand at the regional round in Kuala Lumpur, and advanced to the Global Round in Shenzhen, achieving Third Prize.</p></div></article>
+            <article><time>2025 — 2026</time><div><h3>Hugmae Hackathon</h3><p>Developed and presented an AI-powered offline-first rural healthcare concept; selected as a Top 21 National Finalist and participated in a 3-day bootcamp and pitching session.</p></div></article>
+            <article><time>SEP 2026</time><div><h3>International Exchange — Indonesia</h3><p>Participated in a one-week academic and cultural exchange focused on Deep Learning & AI for Images, collaborating with international students and faculty.</p></div></article>
+            <article><time>2023 — PRESENT</time><div><h3>Mae Fah Luang University</h3><p>Bachelor of Engineering (Computer Engineering) · Expected 2028 · GPA 3.98 / 4.00</p></div></article>
+          </div>
+          <div class="credentials">
+            <p class="kicker">CREDENTIALS</p>
+            <a class="credential" href="assets/certificates/HCIA-Datacom.pdf" target="_blank"><span>01</span><div><b>HCIA Datacom</b><small>Huawei · 2026</small></div><em>↗</em></a>
+            <a class="credential" href="assets/certificates/HCCDA-Tech-Essentials.png" target="_blank"><span>02</span><div><b>HCCDA-Tech Essentials</b><small>Huawei Cloud Developer · 2026</small></div><em>↗</em></a>
+            <a class="credential" href="assets/certificates/Huawei-Certificate.pdf" target="_blank"><span>03</span><div><b>Cloud Developer, Level 5</b><small>TPQI / Huawei · 2026</small></div><em>↗</em></a>
+            <div class="credential"><span>04</span><div><b>Outstanding Student Award</b><small>Mae Fah Luang University · 2024–2025</small></div><em>★</em></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell language-section">
+      <div class="language-card">
+        <div><p class="kicker">EDUCATION & LANGUAGES</p><h2>Ready to learn<br>in a real team.</h2></div>
+        <div class="language-list">
+          <div><span>English</span><b>Professional · CEFR C1</b></div>
+          <div><span>Burmese</span><b>Native</b></div>
+          <div><span>Thai</span><b>Basic</b></div>
+          <div><span>Chinese</span><b>Basic</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="shell contact-inner">
+        <div><p class="kicker">05 / CONTACT</p><h2>Let's build<br><em>something useful.</em></h2><p>I'm currently seeking Software Development or AI Engineering internship opportunities where I can contribute, learn quickly and work on real technical problems.</p></div>
+        <div class="contact-links">
+          <a href="mailto:6631501176@lamduan.mfu.ac.th"><span>EMAIL</span>6631501176@lamduan.mfu.ac.th ↗</a>
+          <a href="https://www.linkedin.com/in/minthwaykhant711" target="_blank" rel="noopener"><span>LINKEDIN</span>linkedin.com/in/minthwaykhant711 ↗</a>
+          <a href="https://github.com/minthwaykhant711" target="_blank" rel="noopener"><span>GITHUB</span>github.com/minthwaykhant711 ↗</a>
+          <a href="tel:+66838920778"><span>PHONE</span>+66 83 892 0778 ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell"><span>© 2026 MIN THWAY KHANT</span><span>COMPUTER ENGINEERING · THAILAND</span><a href="#top">BACK TO TOP ↑</a></footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close aria-label="Close project gallery">×</button>
+      <div class="modal-content">
+        <div class="modal-image-wrap"><img id="modalImage" src="" alt=""><video id="modalVideo" controls playsinline preload="metadata"></video><button class="gallery-arrow gallery-prev" aria-label="Previous image">←</button><button class="gallery-arrow gallery-next" aria-label="Next image">→</button></div>
+        <div class="modal-details"><p class="kicker" id="modalKicker"></p><h2 id="modalTitle"></h2><p id="modalDescription"></p><div class="modal-role" id="modalRole"></div><div class="modal-counter" id="modalCounter"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
