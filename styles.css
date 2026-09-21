@@ -894,3 +894,100 @@ body {
 .language-list b {
   color: #d6e0e6;
 }
+
+/* Responsive sizing and explicit contrast for project surfaces. */
+.section-dark .projects-intro,
+.section-dark .projects-intro h2,
+.section-dark .projects-intro .kicker,
+.section-dark .projects-intro > p,
+.section-dark .projects-intro > p strong {
+  opacity: 1;
+}
+
+.section-dark .projects-intro > p {
+  color: #586875;
+}
+
+.section-dark .projects-intro > p strong {
+  color: #1f2933;
+}
+
+.modal {
+  padding: clamp(12px, 3vw, 40px);
+}
+
+.modal-dialog {
+  width: min(1120px, calc(100vw - 2 * clamp(12px, 3vw, 40px)));
+  max-height: calc(100vh - 2 * clamp(12px, 3vw, 40px));
+  overflow: hidden;
+}
+
+.modal-content {
+  min-width: 0;
+  min-height: 0;
+}
+
+.modal-image-wrap {
+  min-width: 0;
+  min-height: clamp(300px, 54vh, 680px);
+  max-height: calc(100vh - 170px);
+}
+
+.modal-image-wrap img,
+.modal-image-wrap video {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: min(68vh, 680px);
+  object-fit: contain;
+}
+
+.modal-image-wrap img[hidden],
+.modal-image-wrap video[hidden] {
+  display: none !important;
+}
+
+.modal-details {
+  min-width: 0;
+}
+
+.modal-details h2,
+.modal-details p,
+.modal-details .modal-role,
+.modal-details .modal-counter {
+  opacity: 1;
+}
+
+@media (min-width: 1400px) {
+  .modal-dialog {
+    width: min(1240px, calc(100vw - 80px));
+  }
+}
+
+@media (max-width: 900px) {
+  .modal-dialog {
+    max-height: calc(100vh - 24px);
+    overflow-y: auto;
+  }
+
+  .modal-image-wrap {
+    min-height: clamp(260px, 48vh, 520px);
+    max-height: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .modal-dialog {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .modal-image-wrap {
+    min-height: clamp(220px, 42vh, 380px);
+  }
+
+  .modal-image-wrap img,
+  .modal-image-wrap video {
+    max-height: 42vh;
+  }
+}
