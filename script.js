@@ -1,13 +1,34 @@
 const menuBtn = document.querySelector('.menu-btn');
 const navLinks = document.querySelector('.nav-links');
 
+function closeNavigation() {
+  navLinks?.classList.remove('open');
+  menuBtn?.setAttribute('aria-expanded', 'false');
+  menuBtn?.setAttribute('aria-label', 'Open navigation');
+}
+
 menuBtn?.addEventListener('click', () => {
-  const open = navLinks.classList.toggle('open');
+  const open = navLinks?.classList.toggle('open') ?? false;
   menuBtn.setAttribute('aria-expanded', String(open));
+  menuBtn.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
 });
 
 document.querySelectorAll('.nav-links a').forEach((link) => {
-  link.addEventListener('click', () => navLinks.classList.remove('open'));
+  link.addEventListener('click', closeNavigation);
+});
+
+document.addEventListener('click', (event) => {
+  if (!navLinks?.classList.contains('open')) return;
+  if (navLinks.contains(event.target) || menuBtn?.contains(event.target)) return;
+  closeNavigation();
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') closeNavigation();
+});
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 900) closeNavigation();
 });
 
 // Add future project media by adding filenames to that project's media array.

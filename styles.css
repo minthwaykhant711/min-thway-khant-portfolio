@@ -958,9 +958,18 @@ body {
   opacity: 1;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1100px) {
   .modal-dialog {
-    width: min(1240px, calc(100vw - 80px));
+    width: min(1400px, calc(100vw - 80px));
+  }
+
+  .modal-content {
+    grid-template-columns: minmax(0, 1.65fr) minmax(300px, .55fr);
+    gap: 32px;
+  }
+
+  .modal-image-wrap {
+    min-height: min(62vh, 680px);
   }
 }
 
@@ -977,6 +986,258 @@ body {
 }
 
 @media (max-width: 560px) {
+  .modal-dialog {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .modal-image-wrap {
+    min-height: clamp(220px, 42vh, 380px);
+  }
+
+  .modal-image-wrap img,
+  .modal-image-wrap video {
+    max-height: 42vh;
+  }
+}
+
+/* Final responsive layout overrides. Keep these after the presentation styles
+   so the same layout works at tablet and phone widths. */
+.modal-dialog {
+  top: auto;
+  margin: 0;
+  transform: none;
+  max-height: 90vh;
+  overflow: auto;
+}
+
+@media (max-width: 900px) {
+  :root {
+    --shell: min(100% - 40px, 720px);
+  }
+
+  .nav {
+    min-height: 68px;
+  }
+
+  .menu-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 2px;
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .menu-btn span {
+    width: 24px;
+    height: 2px;
+    background: currentColor;
+    transition: transform .2s ease;
+  }
+
+  .menu-btn[aria-expanded="true"] span:first-child {
+    transform: translateY(3.5px) rotate(45deg);
+  }
+
+  .menu-btn[aria-expanded="true"] span:last-child {
+    transform: translateY(-3.5px) rotate(-45deg);
+  }
+
+  .nav-links {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 20px;
+    right: 20px;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 8px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: 0 14px 30px rgba(31, 41, 51, .12);
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 12px;
+    color: var(--ink);
+  }
+
+  .nav-links .nav-cta {
+    margin-top: 4px;
+    text-align: center;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    padding-block: 80px;
+  }
+
+  .hero-visual {
+    min-height: 0;
+  }
+
+  .profile-card {
+    transform: none;
+  }
+
+  .about-grid,
+  .skills-grid,
+  .timeline-grid,
+  .contact-inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .clean-project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-intro {
+    display: block;
+  }
+
+  .projects-intro > p {
+    margin-top: 20px;
+  }
+
+  .modal-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  :root {
+    --shell: calc(100% - 32px);
+  }
+
+  .nav {
+    min-height: 64px;
+  }
+
+  .nav-links {
+    left: 16px;
+    right: 16px;
+  }
+
+  .hero {
+    gap: 36px;
+    padding-block: 64px 76px;
+  }
+
+  .hero h1 {
+    font-size: clamp(46px, 14vw, 68px);
+  }
+
+  .hero-lead {
+    font-size: 17px;
+  }
+
+  .hero-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .button {
+    justify-content: space-between;
+  }
+
+  .hero-meta {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    margin-top: 36px;
+  }
+
+  .hero-meta div:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .profile-card {
+    width: min(320px, 100%);
+  }
+
+  .profile-photo {
+    height: 280px;
+  }
+
+  .section {
+    padding-block: 76px;
+  }
+
+  .section-head {
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+
+  .section-head > span {
+    display: none;
+  }
+
+  .about-grid h2,
+  .projects-intro h2,
+  .skill-hero h2,
+  .language-card h2,
+  .contact-inner h2 {
+    font-size: clamp(40px, 12vw, 52px);
+  }
+
+  .skill-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .clean-project-image,
+  .no-image-header {
+    height: 230px;
+  }
+
+  .clean-project-content {
+    padding: 22px;
+  }
+
+  .clean-project-content h3 {
+    font-size: 24px;
+  }
+
+  .clean-project-top {
+    flex-wrap: wrap;
+    gap: 8px 14px;
+  }
+
+  .project-footer,
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .language-card {
+    padding: 28px;
+  }
+
+  .language-list {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-section {
+    padding-block: 76px 64px;
+  }
+
+  .contact-links a {
+    overflow-wrap: anywhere;
+  }
+
+  .modal {
+    padding: 12px;
+  }
+
   .modal-dialog {
     width: 100%;
     padding: 16px;
