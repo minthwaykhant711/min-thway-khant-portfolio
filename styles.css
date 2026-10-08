@@ -630,6 +630,47 @@ body { background: var(--bg); }
   border-color: rgba(180, 194, 205, .55);
   box-shadow: 0 14px 32px rgba(0, 0, 0, .16);
 }
+.track-record-projects {
+  align-content: start;
+}
+.track-record-projects .clean-project-card {
+  background: var(--paper);
+  border-color: var(--line);
+  box-shadow: 0 8px 24px rgba(31, 41, 51, .06);
+}
+.track-record-projects .clean-project-card:hover {
+  border-color: #aabac5;
+  box-shadow: 0 14px 30px rgba(31, 41, 51, .11);
+}
+.track-record-projects .clean-project-image {
+  height: 190px;
+  background: #e8ecee;
+}
+.track-record-projects .clean-project-image img {
+  object-fit: cover;
+  padding: 0;
+  opacity: .92;
+}
+.track-record-projects .clean-project-card:hover .clean-project-image img {
+  opacity: 1;
+}
+.track-record-projects .clean-project-content {
+  padding: 22px;
+}
+.track-record-projects .clean-project-content h3 {
+  color: var(--ink);
+  font-size: 22px;
+}
+.track-record-projects .clean-project-content > p {
+  color: var(--muted);
+  font-size: 13px;
+}
+.track-record-projects .clean-project-top {
+  color: var(--muted);
+}
+.track-record-projects .view-project-btn {
+  color: var(--accent);
+}
 .clean-project-image {
   height: 230px;
   background: #0c131a;

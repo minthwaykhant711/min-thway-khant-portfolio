@@ -33,6 +33,60 @@ window.addEventListener('resize', () => {
 
 // Add future project media by adding filenames to that project's media array.
 const projects = {
+  ict: {
+    title: 'Huawei ICT Competition — Networking',
+    kicker: '2024 — 2025 · ACHIEVEMENT',
+    description: 'Won the National Grand Prize in Thailand, represented Thailand at the regional round in Kuala Lumpur, and advanced to the Global Round in Shenzhen, achieving Third Prize.',
+    role: 'Competitor / Networking',
+    images: [
+      'assets/experience/ict/i1.JPG',
+      'assets/experience/ict/i2.JPG',
+      'assets/experience/ict/i3.jpg',
+      'assets/experience/ict/i4.JPG',
+      'assets/experience/ict/i5.JPG',
+      'assets/experience/ict/i6.JPG'
+    ]
+  },
+  apex: {
+    title: 'Hugmae Hackathon',
+    kicker: '2025 — 2026 · HACKATHON',
+    description: 'Developed and presented an AI-powered offline-first rural healthcare concept; selected as a Top 21 National Finalist and participated in a 3-day bootcamp and pitching session.',
+    role: 'Team Leader / Project Manager & Solution Contributor',
+    images: [
+      'assets/experience/apex/h1.jpg',
+      'assets/experience/apex/h2.jpg',
+      'assets/experience/apex/h3.jpg',
+      'assets/experience/apex/h4.jpg',
+      'assets/experience/apex/h5.jpg',
+      'assets/experience/apex/h6.jpg',
+      'assets/experience/apex/h7.jpg',
+      'assets/experience/apex/h8.jpg'
+    ]
+  },
+  indo: {
+    title: 'International Exchange — Indonesia',
+    kicker: 'SEP 2026 · EXCHANGE',
+    description: 'Participated in a one-week academic and cultural exchange focused on Deep Learning & AI for Images, collaborating with international students and faculty.',
+    role: 'Exchange Participant',
+    images: [
+      'assets/experience/indo/e1.JPG',
+      'assets/experience/indo/e2.JPG',
+      'assets/experience/indo/e3.JPG',
+      'assets/experience/indo/e4.JPG',
+      'assets/experience/indo/e5.JPG',
+      'assets/experience/indo/e6.JPG'
+    ]
+  },
+  mfu: {
+    title: 'Mae Fah Luang University',
+    kicker: '2023 — PRESENT · EDUCATION',
+    description: 'Bachelor of Engineering in Computer Engineering at Mae Fah Luang University. Expected graduation in 2028 with a GPA of 3.98 / 4.00.',
+    role: 'Computer Engineering Student',
+    images: [
+      'assets/experience/mfu/m1.JPG',
+      'assets/experience/mfu/m2.JPG'
+    ]
+  },
   room: {
     title: 'Room Reservation System',
     kicker: 'TEAM PROJECT · ROOM RESERVATION',
