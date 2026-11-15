@@ -1,442 +1,717 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Min Thway Khant — Computer Engineering student building across networking, software, cloud and AI.">
-  <meta name="theme-color" content="#0a0d12">
-  <title>Min Thway Khant — Engineering Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="noise"></div>
-  <header class="site-header" id="top">
-    <nav class="nav shell">
-      <a class="brand" href="#top" aria-label="Min Thway Khant home">Min Thway Khant<span>.</span></a>
-      <button class="menu-btn" type="button" aria-label="Open navigation" aria-controls="site-navigation" aria-expanded="false"><span></span><span></span></button>
-      <div class="nav-links" id="site-navigation">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#achievements">Achievements</a>
-        <a href="#contact" class="nav-cta">Let's talk ↗</a>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero shell">
-      <div class="hero-copy">
-        <p class="kicker"><span class="status-dot"></span> COMPUTER ENGINEERING · THAILAND</p>
-        <h1>Min Thway Khant</h1>
-        <p class="hero-lead"><strong>Computer Engineering student focused on software development and AI engineering</strong>, with hands-on experience building full-stack systems and a strong foundation in networking and cloud.</p>
-        <div class="hero-actions">
-          <a class="button button-main" href="#projects">View selected work <span>↓</span></a>
-          <a class="button button-ghost" href="assets/Min-Thway-Khant-Resume.pdf" target="_blank" rel="noopener">Open résumé ↗</a>
-        </div>
-        <div class="hero-meta">
-          <div><span>GPA</span><strong>3.98 / 4.00</strong></div>
-          <div><span>EXPECTED</span><strong>2028</strong></div>
-          <div><span>LOOKING FOR</span><strong>Internship</strong></div>
-        </div>
-      </div>
-      <div class="hero-visual" aria-label="Professional profile photo">
-  <div class="profile-card">
-
-    <div class="card-top">
-      <span>PROFILE / 01</span>
-      <span>COMPUTER ENGINEERING</span>
-    </div>
-
-    <img 
-      class="profile-photo"
-      src="assets/projects/profile_photo.jpg"
-      alt="Min Thway Khant"
-    >
-
-    <div class="profile-bottom">
-      <span>MIN THWAY KHANT</span>
-      <span>CE · IT · AI</span>
-    </div>
-
-  </div>
-</div>
-    </section>
-
-    <section class="marquee" aria-label="Areas of interest">
-      <div class="marquee-track"><span>SOFTWARE DEVELOPMENT</span><i>✦</i><span>AI / ML</span><i>✦</i><span>NETWORKING</span><i>✦</i><span>CLOUD</span><i>✦</i><span>SECURITY</span><i>✦</i></div>
-    </section>
-
-    <section class="section shell" id="about">
-      <div class="section-head"><p class="section-number">01 / ABOUT</p><span>ENGINEERING · LEARNING · BUILDING</span></div>
-      <div class="about-grid">
-        <h2>One foundation.<br><span>Multiple directions.</span></h2>
-        <div class="about-copy">
-          <p class="lead-copy">I am especially interested in software development and AI engineering, supported by a strong foundation in networking and IT infrastructure.</p>
-          <p>I learn by building: writing applications, testing ideas, debugging systems, configuring networks and working with teammates to turn requirements into something usable.</p>
-          <p>As a <strong>Team Leader / Project Manager & Developer</strong>, I take responsibility for both coordination and implementation — planning the work, dividing tasks, contributing code, integrating components and helping the team deliver.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-dark projects-new" id="projects">
-  <div class="shell">
-
-    <div class="section-head">
-      <p class="section-number">02 / SELECTED WORK</p>
-      <span>PROJECTS & TECHNICAL WORK</span>
-    </div>
-
-    <div class="projects-intro">
-      <div>
-        <p class="kicker">SELECTED PROJECTS</p>
-        <h2>Things I've<br><span>built.</span></h2>
-      </div>
-
-      <p>
-        A selection of team projects, academic systems and technical work.
-        In these projects, I took responsibility for both
-        <strong>team leadership and development.</strong>
-      </p>
-    </div>
-
-
-    <!-- PROJECT GRID -->
-    <div class="clean-project-grid">
-
-      <!-- HCIA E-LEARNING -->
-      <article class="clean-project-card" data-project="elearning">
-        <button class="clean-project-image" aria-label="View HCIA Datacom E-Learning Platform screenshots">
-          <img src="assets/projects/hcia-elearning/welcome.png" alt="HCIA Datacom E-Learning Platform welcome page" loading="lazy">
-          <div class="image-overlay"><span>VIEW PROJECT</span><span>↗</span></div>
-          <div class="project-number">03</div>
-        </button>
-        <div class="clean-project-content">
-          <div class="clean-project-top"><span>SENIOR PROJECT</span><span>2026 — PRESENT</span></div>
-          <h3>E-Learning Platform</h3>
-          <p>A team-built learning platform for networking students with structured HCIA Datacom modules, quizzes, mock tests and practical networking laboratory tutorials.</p>
-          <div class="clean-role"><span>MY ROLE</span>Project Management, Developer</div>
-          <div class="clean-tags"><span>Web Platform</span><span>Networking Education</span><span>Quiz Systems</span></div>
-          <button class="view-project-btn" onclick="openProject('elearning')">View screenshots →</button>
-        </div>
-      </article>
-
-      
-      <!-- ASSET BORROWING -->
-      <article class="clean-project-card" data-project="asset">
-
-        <button class="clean-project-image" aria-label="View Asset Borrowing System screenshots">
-          <img
-            src="assets/projects/assetmanage/asset-login.png"
-            alt="Asset Borrowing System staff dashboard"
-            loading="lazy"
-          >
-
-          <div class="image-overlay">
-            <span>VIEW PROJECT</span>
-            <span>↗</span>
-          </div>
-
-          <div class="project-number">02</div>
-        </button>
-
-        <div class="clean-project-content">
-
-          <div class="clean-project-top">
-            <span>TEAM PROJECT</span>
-            <span>WEB SYSTEM</span>
-          </div>
-
-          <h3>Asset Borrowing System</h3>
-
-          <p>
-            A role-based asset management system covering asset browsing,
-            borrowing requests, approval workflows, returned assets and
-            borrowing history.
-          </p>
-
-          <div class="clean-role">
-            <span>MY ROLE</span>
-            Team Leader / Project Manager & Developer
-          </div>
-
-          <div class="clean-tags">
-            <span>HTML / CSS / JS</span>
-            <span>Node.js</span>
-            <span>MySQL</span>
-          </div>
-
-          <button
-            class="view-project-btn"
-            onclick="openProject('asset')"
-          >
-            View screenshots →
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Min Thway Khant — Computer Engineering student at Mae Fah Luang University, working across networking, infrastructure, software development, and automation.">
+    <meta name="theme-color" content="#f7f8f5">
+    <link rel="canonical" href="https://minthwaykhant711.github.io/min-thway-khant-portfolio/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Min Thway Khant — Computer Engineering Portfolio">
+    <meta property="og:description" content="Networks, software, and automation. Explore my projects, Huawei ICT Competition achievements, and engineering journey.">
+    <meta property="og:url" content="https://minthwaykhant711.github.io/min-thway-khant-portfolio/">
+    <meta property="og:image" content="https://minthwaykhant711.github.io/min-thway-khant-portfolio/assets/social-preview.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Min Thway Khant — Computer Engineering. Networks, software, and automation.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://minthwaykhant711.github.io/min-thway-khant-portfolio/assets/social-preview.jpg">
+    <title>Min Thway Khant — Computer Engineering Portfolio</title>
+    <script>
+      // Apply the preference before rendering; storage can be unavailable.
+      try {
+        const savedTheme = localStorage.getItem('portfolio-theme');
+        document.documentElement.dataset.theme = ['light', 'dark'].includes(savedTheme)
+          ? savedTheme : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      } catch {
+        document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+    </script>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav shell" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Min Thway Khant home">Min Thway Khant<span aria-hidden="true">.</span>
+        </a>
+        <div class="nav-tools">
+          <button class="theme-toggle icon-button" type="button" aria-label="Switch to dark theme" aria-pressed="false" hidden>
+            <span aria-hidden="true">◐</span>
+            <span class="theme-label">Dark</span>
           </button>
-
-        </div>
-      </article>
-
-
-      <!-- ROOM RESERVATION -->
-      <article class="clean-project-card" data-project="room">
-
-        <button class="clean-project-image" aria-label="View Room Reservation System screenshots">
-          <img
-            src="assets/projects/roomreservation/login.png"
-            alt="Room Reservation System staff room management"
-            loading="lazy"
-          >
-
-          <div class="image-overlay">
-            <span>VIEW PROJECT</span>
-            <span>↗</span>
-          </div>
-
-          <div class="project-number">01</div>
-        </button>
-
-        <div class="clean-project-content">
-
-          <div class="clean-project-top">
-            <span>TEAM PROJECT</span>
-            <span>2025 — 2026</span>
-          </div>
-
-          <h3>Room Reservation System</h3>
-
-          <p>
-            A room reservation platform for study, multimedia and meeting
-            rooms, featuring booking requests, approval workflows, booking
-            history and staff-side room management.
-          </p>
-
-          <div class="clean-role">
-            <span>MY ROLE</span>
-            Team Leader / Project Manager & Developer
-          </div>
-
-          <div class="clean-tags">
-            <span>Web / App</span>
-            <span>Booking System</span>
-            <span>Role-based Workflow</span>
-          </div>
-
-          <button
-            class="view-project-btn"
-            onclick="openProject('room')"
-          >
-            View screenshots →
+          <button class="menu-btn" type="button" aria-label="Open navigation" aria-controls="site-navigation" aria-expanded="false" hidden>
+            <span>
+            </span>
+            <span>
+            </span>
           </button>
-
         </div>
-      </article>
-
-
-
-
-      
-
-
-      <!-- RURAL HEALTHCARE -->
-      <article class="clean-project-card clean-project-no-image" data-project="hugmae">
-
-        <div class="no-image-header">
-          <video
-            class="project-card-video"
-            src="assets/projects/hugmae/scan-patient-medgo.mp4"
-            muted
-            playsinline
-            preload="metadata"
-            aria-label="Hugmae healthcare application preview"
-          ></video>
-          <div class="project-number">04</div>
+        <div class="nav-links" id="site-navigation">
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#achievements">Track record</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a href="assets/Min-Thway-Khant-Resume.pdf" target="_blank" rel="noopener" class="nav-cta">Résumé <span aria-hidden="true">↗</span>
+          </a>
         </div>
+      </nav>
+    </header>
 
-        <div class="clean-project-content">
-
-          <div class="clean-project-top">
-            <span>HACKATHON</span>
-            <span>2025 — 2026</span>
+    <main id="main" tabindex="-1">
+      <section class="hero shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot" aria-hidden="true">
+            </span> COMPUTER ENGINEERING · THAILAND</p>
+          <h1 id="hero-title">Min Thway<br>Khant<span class="accent">.</span>
+          </h1>
+          <p class="hero-discipline">Networks. Software. Automation.</p>
+          <p class="hero-lead">I build applications, configure networks, and explore AI-driven solutions. A Computer Engineering student connecting infrastructure knowledge with hands-on software development.</p>
+          <div class="hero-actions">
+            <a class="button button-main" href="#projects">Explore my work <span aria-hidden="true">↓</span>
+            </a>
+            <a class="button button-ghost" href="assets/Min-Thway-Khant-Resume.pdf" target="_blank" rel="noopener">Open résumé <span aria-hidden="true">↗</span>
+            </a>
           </div>
-
-          <h3>Offline-First Rural Healthcare Application</h3>
-
-          <p>
-            An AI-powered offline-first healthcare concept designed to
-            improve access to healthcare services in underserved and
-            rural communities.
+          <dl class="hero-meta">
+            <div>
+              <dt>AT MAE FAH LUANG</dt>
+              <dd>Computer Engineering</dd>
+            </div>
+            <div>
+              <dt>GPA</dt>
+              <dd>3.98 / 4.00</dd>
+            </div>
+            <div>
+              <dt>EXPECTED GRADUATION</dt>
+              <dd>2028</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-visual">
+          <figure class="profile-card">
+            <div class="profile-top">
+              <span>IN MY ELEMENT</span>
+              <span aria-hidden="true">01 / CE</span>
+            </div>
+            <img class="profile-photo" src="assets/optimized/projects/profile_photo-640.jpg" alt="Min Thway Khant presenting at the Hugmae Hackathon" width="1566" height="1044" fetchpriority="high" decoding="async" srcset="assets/optimized/projects/profile_photo-640.jpg 640w, assets/optimized/projects/profile_photo-1280.jpg 1280w, assets/optimized/projects/profile_photo-1566.jpg 1566w" sizes="(max-width: 600px) calc(100vw - 68px), (max-width: 900px) 40vw, 350px">
+            <figcaption>
+              <span>Learning by building.</span>
+              <span>Chiang Rai, Thailand</span>
+            </figcaption>
+          </figure>
+          <p class="internship-note">
+            <span class="status-dot" aria-hidden="true">
+            </span>
+            <span>Preparing for a <strong>network engineering internship</strong>
+            </span>
           </p>
-
-          <div class="achievement-small">
-            TOP 21 NATIONAL FINALIST
-          </div>
-
-          <div class="clean-role">
-            <span>MY ROLE</span>
-            Team Leader / Project Manager & Solution Contributor
-          </div>
-
-          <div class="clean-tags">
-            <span>AI</span>
-            <span>Healthcare Tech</span>
-            <span>Offline-first</span>
-          </div>
-
-          <button class="view-project-btn" onclick="openProject('hugmae')">
-            View project media →
-          </button>
-
         </div>
-      </article>
+      </section>
 
-    </div>
+      <section class="proof-strip shell" aria-label="Selected achievements">
+        <a href="#huawei-ict">
+          <span class="proof-label">HUAWEI ICT · THAILAND</span>
+          <strong>National Grand Prize</strong>
+          <span class="proof-caption">Networking · 2024–2025 <span aria-hidden="true">↗</span>
+          </span>
+        </a>
+        <a href="#huawei-ict">
+          <span class="proof-label">HUAWEI ICT · GLOBAL FINAL</span>
+          <strong>Third Prize</strong>
+          <span class="proof-caption">Representing Thailand <span aria-hidden="true">↗</span>
+          </span>
+        </a>
+        <a href="#credentials">
+          <span class="proof-label">PROFESSIONAL CERTIFICATION</span>
+          <strong>HCIP-Datacom</strong>
+          <span class="proof-caption">Networking knowledge, put to work <span aria-hidden="true">↗</span>
+          </span>
+        </a>
+      </section>
 
-
-    <!-- GITHUB -->
-    <div class="project-footer">
-      <span>MORE PROJECTS & CODE</span>
-
-      <a
-        href="https://github.com/minthwaykhant711?tab=repositories"
-        target="_blank"
-        rel="noopener"
-      >
-        Explore my GitHub repositories ↗
-      </a>
-    </div>
-
-  </div>
-</section>
-
-    <section class="section shell" id="skills">
-      <div class="section-head"><p class="section-number">03 / TOOLKIT</p><span>TECHNICAL SKILLS</span></div>
-      <div class="skills-grid">
-        <div class="skill-hero"><p class="kicker">WHAT I WORK WITH</p><h2>From ideas<br>to products.</h2><p>I build software and explore AI while bringing strong networking, cloud and security fundamentals.</p></div>
-        <div class="skill-columns">
-          <div class="skill-group"><h3>Networking</h3><p>TCP/IP · IPv4/IPv6 · Routing & Switching · Subnetting · WLAN · VLAN · OSPF · BGP · MPLS · MSTP · ACL · AAA</p></div>
-          <div class="skill-group"><h3>Programming</h3><p>Python · Java · C# · JavaScript · HTML · CSS · Node.js · Git · GitHub</p></div>
-          <div class="skill-group"><h3>AI / ML</h3><p>Machine Learning Foundations · Deep Learning · AI Applications · Image-Based Learning · Python</p></div>
-          <div class="skill-group"><h3>Software Development</h3><p>Full-Stack Systems · REST APIs · Role-Based Workflows · Testing · Team Delivery</p></div>
-          <div class="skill-group"><h3>Cloud & Systems</h3><p>Cloud Computing · AWS Cloud Foundations · Huawei Cloud · Virtualization · Windows · Linux · Kali · Ubuntu</p></div>
-          <div class="skill-group"><h3>Security & Database</h3><p>Network Security Fundamentals · MySQL · phpMyAdmin</p></div>
+      <div class="interest-strip" aria-label="Areas of interest">
+        <div class="shell">
+          <span>NETWORKING & INFRASTRUCTURE</span>
+          <i aria-hidden="true">+</i>
+          <span>SOFTWARE DEVELOPMENT</span>
+          <i aria-hidden="true">+</i>
+          <span>AI & AUTOMATION</span>
         </div>
       </div>
-    </section>
 
-    <section class="section section-paper" id="achievements">
-      <div class="shell">
-        <div class="section-head"><p class="section-number">04 / TRACK RECORD</p><span>ACHIEVEMENTS · EDUCATION · CREDENTIALS</span></div>
-        <div class="timeline-grid">
-          <div class="track-record-projects clean-project-grid">
-            <article class="clean-project-card" data-project="ict">
-              <button class="clean-project-image" aria-label="View Huawei ICT Competition photos">
-                <img src="assets/experience/ict/i1.JPG" alt="Huawei ICT Competition — Networking" loading="lazy">
-                <div class="image-overlay"><span>VIEW EXPERIENCE</span><span>↗</span></div>
-                <div class="project-number">01</div>
+      <section class="section section-tint" id="projects" aria-labelledby="projects-title">
+        <div class="shell">
+          <div class="section-head">
+            <p class="section-number">01 / SELECTED WORK</p>
+            <span>ACADEMIC PROJECTS & TECHNICAL EXPLORATION</span>
+          </div>
+          <div class="section-intro">
+            <h2 id="projects-title">Ideas into<br>
+              <span class="accent">working systems.</span>
+            </h2>
+            <p>Team projects across software, networking education, and healthcare technology. I contribute to both the planning and the implementation.</p>
+          </div>
+          <div class="filter-toolbar" hidden>
+            <div class="project-filters" role="group" aria-label="Filter projects">
+              <button type="button" data-filter="all" aria-pressed="true" aria-controls="project-grid">All projects <span>04</span>
               </button>
-              <div class="clean-project-content">
-                <div class="clean-project-top"><span>ACHIEVEMENT</span><span>2024 — 2025</span></div>
+              <button type="button" data-filter="networking" aria-pressed="false" aria-controls="project-grid">Networking education</button>
+              <button type="button" data-filter="software" aria-pressed="false" aria-controls="project-grid">Software development</button>
+              <button type="button" data-filter="ai" aria-pressed="false" aria-controls="project-grid">AI & automation</button>
+            </div>
+            <p class="filter-count" id="filter-count" role="status" aria-live="polite" aria-atomic="true">Showing all 4 projects</p>
+          </div>
+
+          <div class="project-grid" id="project-grid">
+            <article class="project-card" id="project-elearning" data-project="elearning" data-categories="software networking">
+              <a class="project-cover" href="assets/projects/hcia-elearning/welcome.png" data-open-gallery="elearning" aria-label="Open HCIA Datacom E-Learning Platform gallery">
+                <img src="assets/optimized/projects/hcia-elearning/welcome-640.jpg" alt="HCIA Datacom E-Learning Platform welcome page" width="1920" height="1146" loading="lazy" decoding="async" srcset="assets/optimized/projects/hcia-elearning/welcome-640.jpg 640w, assets/optimized/projects/hcia-elearning/welcome-1280.jpg 1280w, assets/optimized/projects/hcia-elearning/welcome-1920.jpg 1920w" sizes="(max-width: 600px) calc(100vw - 36px), (max-width: 900px) 48vw, 580px">
+                <span class="cover-label">EXPLORE THE PLATFORM <span aria-hidden="true">↗</span>
+                </span>
+                <span class="cover-number" aria-hidden="true">01</span>
+              </a>
+              <div class="project-content">
+                <div class="project-meta">
+                  <p class="project-kicker">SENIOR PROJECT · 2026–PRESENT</p>
+                  <span class="status-tag status-active">In progress</span>
+                </div>
+                <h3>HCIA Datacom E-Learning Platform</h3>
+                <p class="project-summary">A team-built learning platform for networking students, combining structured HCIA Datacom modules, quizzes, mock tests, and practical networking laboratory tutorials.</p>
+                <p class="project-role">
+                  <span>MY ROLE</span>
+                  <strong>Team Leader / Project Manager & Developer</strong>
+                </p>
+                <ul class="tags" aria-label="Project areas">
+                  <li>Web platform</li>
+                  <li>Networking education</li>
+                  <li>Quiz systems</li>
+                </ul>
+                <details class="case-study">
+                  <summary>Inside the project <span aria-hidden="true">+</span>
+                  </summary>
+                  <div class="case-study-body">
+                    <div>
+                      <h4>The problem</h4>
+                      <p>Networking students need structured study material alongside opportunities to practise and test their understanding.</p>
+                    </div>
+                    <div>
+                      <h4>The approach</h4>
+                      <p>Bring learning modules, quizzes, mock examinations, and team-demonstrated networking lab tutorials into one web-based platform.</p>
+                    </div>
+                    <div>
+                      <h4>My contribution</h4>
+                      <p>Coordinate project work and contribute to platform development, testing features, and practical learning material with the team.</p>
+                    </div>
+                    <div>
+                      <h4>Current stage</h4>
+                      <p>Ongoing senior project. The gallery shows the learning, enrolment, quiz, and mock-test interfaces developed so far.</p>
+                    </div>
+                  </div>
+                </details>
+                <a class="text-link" href="assets/projects/hcia-elearning/welcome.png" data-open-gallery="elearning">View 8 screenshots <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card" id="project-asset" data-project="asset" data-categories="software">
+              <a class="project-cover" href="assets/projects/assetmanage/asset-login.png" data-open-gallery="asset" aria-label="Open Asset Borrowing System gallery">
+                <img src="assets/optimized/projects/assetmanage/asset-login-640.jpg" alt="Asset Borrowing System sign-in page" width="1920" height="1147" loading="lazy" decoding="async" srcset="assets/optimized/projects/assetmanage/asset-login-640.jpg 640w, assets/optimized/projects/assetmanage/asset-login-1280.jpg 1280w, assets/optimized/projects/assetmanage/asset-login-1920.jpg 1920w" sizes="(max-width: 600px) calc(100vw - 36px), (max-width: 900px) 48vw, 580px">
+                <span class="cover-label">EXPLORE THE SYSTEM <span aria-hidden="true">↗</span>
+                </span>
+                <span class="cover-number" aria-hidden="true">02</span>
+              </a>
+              <div class="project-content">
+                <div class="project-meta">
+                  <p class="project-kicker">TEAM PROJECT · JAN–APR 2025</p>
+                  <span class="status-tag">Academic project</span>
+                </div>
+                <h3>Asset Borrowing System</h3>
+                <p class="project-summary">A role-based asset management system covering asset browsing, borrowing requests, approval workflows, returned assets, and borrowing history for students, lecturers, and staff.</p>
+                <p class="project-role">
+                  <span>MY ROLE</span>
+                  <strong>Team Leader / Project Manager & Developer</strong>
+                </p>
+                <ul class="tags" aria-label="Project technologies">
+                  <li>HTML / CSS / JavaScript</li>
+                  <li>Node.js</li>
+                  <li>MySQL</li>
+                </ul>
+                <details class="case-study">
+                  <summary>Inside the project <span aria-hidden="true">+</span>
+                  </summary>
+                  <div class="case-study-body">
+                    <div>
+                      <h4>The problem</h4>
+                      <p>Borrowing shared assets involves different users, approvals, returns, and a record of previous transactions.</p>
+                    </div>
+                    <div>
+                      <h4>The approach</h4>
+                      <p>A role-based web application connects asset browsing and requests with staff approval, returns, and history.</p>
+                    </div>
+                    <div>
+                      <h4>My contribution</h4>
+                      <p>Coordinate team development and contribute to frontend and backend implementation, component integration, and delivery.</p>
+                    </div>
+                    <div>
+                      <h4>Delivered work</h4>
+                      <p>The project includes registration, asset details, staff management, returns, and history interfaces, documented in the gallery.</p>
+                    </div>
+                  </div>
+                </details>
+                <a class="text-link" href="assets/projects/assetmanage/asset-login.png" data-open-gallery="asset">View 7 screenshots <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card" id="project-room" data-project="room" data-categories="software">
+              <a class="project-cover" href="assets/projects/roomreservation/login.png" data-open-gallery="room" aria-label="Open Room Reservation System gallery">
+                <img src="assets/optimized/projects/roomreservation/login-640.jpg" alt="Room Reservation System sign-in page" width="694" height="1392" loading="lazy" decoding="async" srcset="assets/optimized/projects/roomreservation/login-640.jpg 640w, assets/optimized/projects/roomreservation/login-694.jpg 694w" sizes="(max-width: 600px) calc(100vw - 36px), (max-width: 900px) 48vw, 580px">
+                <span class="cover-label">EXPLORE THE APPLICATION <span aria-hidden="true">↗</span>
+                </span>
+                <span class="cover-number" aria-hidden="true">03</span>
+              </a>
+              <div class="project-content">
+                <div class="project-meta">
+                  <p class="project-kicker">TEAM PROJECT · AUG–NOV 2025</p>
+                  <span class="status-tag">Academic project</span>
+                </div>
+                <h3>Room Reservation System</h3>
+                <p class="project-summary">A reservation platform for study, multimedia, and meeting rooms, featuring booking requests, approval workflows, booking history, and staff-side room management.</p>
+                <p class="project-role">
+                  <span>MY ROLE</span>
+                  <strong>Team Leader / Project Manager & Developer</strong>
+                </p>
+                <ul class="tags" aria-label="Project technologies">
+                  <li>Flutter</li>
+                  <li>REST APIs</li>
+                  <li>Role-based workflows</li>
+                </ul>
+                <details class="case-study">
+                  <summary>Inside the project <span aria-hidden="true">+</span>
+                  </summary>
+                  <div class="case-study-body">
+                    <div>
+                      <h4>The problem</h4>
+                      <p>University room reservations need separate booking and approval workflows for students, lecturers, and staff.</p>
+                    </div>
+                    <div>
+                      <h4>The approach</h4>
+                      <p>A Flutter mobile application supports room browsing, booking requests, and history, alongside staff-side management.</p>
+                    </div>
+                    <div>
+                      <h4>My contribution</h4>
+                      <p>Lead the team and contribute to development, REST API integration, authentication, JWT-based session handling, and secure local storage.</p>
+                    </div>
+                    <div>
+                      <h4>Delivered work</h4>
+                      <p>Booking, approval, history, and room management workflows. The gallery preserves the available system screenshots.</p>
+                    </div>
+                  </div>
+                </details>
+                <a class="text-link" href="assets/projects/roomreservation/login.png" data-open-gallery="room">View 5 screenshots <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card" id="project-hugmae" data-project="hugmae" data-categories="ai software">
+              <a class="project-cover project-cover-video" href="assets/projects/hugmae/scan-patient-medgo.mp4" data-open-gallery="hugmae" aria-label="Open rural healthcare application video gallery">
+                <img class="video-poster" src="assets/optimized/projects/hugmae/preview.jpg" alt="Patient scanning demonstration in the rural healthcare application prototype" width="938" height="1314" loading="lazy" decoding="async">
+                <span class="play-icon" aria-hidden="true">▶</span>
+                <span class="cover-label">WATCH THE DEMONSTRATIONS <span aria-hidden="true">↗</span>
+                </span>
+                <span class="cover-number" aria-hidden="true">04</span>
+              </a>
+              <div class="project-content">
+                <div class="project-meta">
+                  <p class="project-kicker">HUGMAE HACKATHON · 2025–2026</p>
+                  <span class="status-tag">Concept / prototype</span>
+                </div>
+                <h3>Offline-First Rural Healthcare Application</h3>
+                <p class="project-summary">An AI-powered, offline-first healthcare concept designed to improve access to healthcare services in underserved and rural communities.</p>
+                <p class="achievement-badge">TOP 21 NATIONAL FINALIST</p>
+                <p class="project-role">
+                  <span>MY ROLE</span>
+                  <strong>Team Leader / Project Manager & Solution Contributor</strong>
+                </p>
+                <ul class="tags" aria-label="Project areas">
+                  <li>AI</li>
+                  <li>Healthcare technology</li>
+                  <li>Offline-first</li>
+                </ul>
+                <details class="case-study">
+                  <summary>Inside the project <span aria-hidden="true">+</span>
+                  </summary>
+                  <div class="case-study-body">
+                    <div>
+                      <h4>The problem</h4>
+                      <p>Underserved and rural communities face barriers to accessing healthcare, including unreliable connectivity.</p>
+                    </div>
+                    <div>
+                      <h4>The approach</h4>
+                      <p>Propose an AI-powered healthcare application designed around offline-first use. Prototype demonstrations cover patient scanning, consultations, and synchronisation.</p>
+                    </div>
+                    <div>
+                      <h4>My contribution</h4>
+                      <p>Coordinate the team, contribute to the solution, collaborate with mentors, and present the concept during the bootcamp and pitching sessions.</p>
+                    </div>
+                    <div>
+                      <h4>Outcome</h4>
+                      <p>Selected as a Top 21 National Finalist. This work is presented as a hackathon concept and prototype.</p>
+                    </div>
+                  </div>
+                </details>
+                <a class="text-link" href="assets/projects/hugmae/scan-patient-medgo.mp4" data-open-gallery="hugmae">Watch 3 demonstrations <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+          </div>
+          <div class="project-footer">
+            <p>More projects, experiments, and code.</p>
+            <a class="text-link" href="https://github.com/minthwaykhant711?tab=repositories" target="_blank" rel="noopener">Explore my GitHub <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell" id="skills" aria-labelledby="skills-title">
+        <div class="section-head">
+          <p class="section-number">02 / ENGINEERING TOOLKIT</p>
+          <span>COMPLEMENTARY SKILLS, CONNECTED IN PRACTICE</span>
+        </div>
+        <div class="skills-layout">
+          <div class="skills-intro">
+            <h2 id="skills-title">One foundation.<br>
+              <span class="accent">Multiple directions.</span>
+            </h2>
+            <p>Networking helps me understand the systems software runs on. Programming gives me the tools to build applications and explore automation.</p>
+            <a class="text-link" href="#huawei-ict">See my networking track record <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="skill-groups">
+            <article class="skill-group">
+              <span class="skill-index" aria-hidden="true">01</span>
+              <h3>Networking & infrastructure</h3>
+              <p>TCP/IP · IPv4/IPv6 · Routing & switching · Subnetting · WLAN · VLAN · OSPF · BGP · MPLS · MSTP · ACL · AAA · Network security fundamentals</p>
+              <a href="#huawei-ict">Huawei ICT Competition <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+            <article class="skill-group">
+              <span class="skill-index" aria-hidden="true">02</span>
+              <h3>Programming & software</h3>
+              <p>Python · Java · C# · JavaScript · HTML · CSS · Flutter · Full-stack systems · Role-based workflows · Testing · Team delivery</p>
+              <a href="#projects">Application projects <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+            <article class="skill-group">
+              <span class="skill-index" aria-hidden="true">03</span>
+              <h3>Backend & databases</h3>
+              <p>Node.js · REST APIs · MySQL · phpMyAdmin · Authentication · JWT-based sessions</p>
+              <a href="#project-asset">Asset borrowing & room reservations <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+            <article class="skill-group">
+              <span class="skill-index" aria-hidden="true">04</span>
+              <h3>AI & machine learning</h3>
+              <p>Machine learning foundations · Deep learning · AI applications · Image-based learning · Python</p>
+              <a href="#exchange">Deep learning exchange <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+            <article class="skill-group">
+              <span class="skill-index" aria-hidden="true">05</span>
+              <h3>Cloud, systems & tools</h3>
+              <p>AWS Cloud Foundations · Huawei Cloud · Cloud computing · Virtualization · Windows · Linux · Kali · Ubuntu · Git · GitHub</p>
+              <a href="#credentials">Cloud credentials <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-tint" id="achievements" aria-labelledby="achievements-title">
+        <div class="shell">
+          <div class="section-head">
+            <p class="section-number">03 / TRACK RECORD</p>
+            <span>COMPETITION · COLLABORATION · CONTINUOUS LEARNING</span>
+          </div>
+          <div class="section-intro">
+            <h2 id="achievements-title">Learning that<br>
+              <span class="accent">goes beyond class.</span>
+            </h2>
+            <p>From representing Thailand in networking to developing ideas with a team, these experiences shape how I approach engineering.</p>
+          </div>
+          <div class="experience-grid">
+            <article class="experience-card experience-featured" id="huawei-ict" data-project="ict">
+              <a class="experience-cover" href="assets/experience/ict/i1.JPG" data-open-gallery="ict" aria-label="Open Huawei ICT Competition photo gallery">
+                <img src="assets/optimized/experience/ict/i1-640.jpg" alt="Huawei ICT Competition networking team and competition experience" width="1920" height="1280" loading="lazy" decoding="async" srcset="assets/optimized/experience/ict/i1-640.jpg 640w, assets/optimized/experience/ict/i1-1280.jpg 1280w, assets/optimized/experience/ict/i1-1920.jpg 1920w" sizes="(max-width: 600px) calc(100vw - 36px), (max-width: 900px) 48vw, 580px">
+                <span class="cover-label">6 COMPETITION PHOTOS <span aria-hidden="true">↗</span>
+                </span>
+              </a>
+              <div class="experience-content">
+                <p class="project-kicker">NETWORKING · 2024–2025</p>
                 <h3>Huawei ICT Competition — Networking</h3>
-                <p>Won the National Grand Prize in Thailand, represented Thailand at the regional round in Kuala Lumpur, and advanced to the Global Round in Shenzhen, achieving Third Prize.</p>
-                <button class="view-project-btn" onclick="openProject('ict')">View photos →</button>
+                <p class="project-summary">Won the National Grand Prize in Thailand, represented Thailand at the regional round in Kuala Lumpur, and advanced to the Global Round in Shenzhen, achieving Third Prize.</p>
+                <p class="project-role">
+                  <span>MY ROLE</span>
+                  <strong>Competitor / Networking</strong>
+                </p>
+                <ol class="competition-stages">
+                  <li>
+                    <span>THAILAND</span>
+                    <strong>National Grand Prize</strong>
+                  </li>
+                  <li>
+                    <span>KUALA LUMPUR</span>
+                    <strong>Regional round</strong>
+                  </li>
+                  <li>
+                    <span>SHENZHEN</span>
+                    <strong>Global Third Prize</strong>
+                  </li>
+                </ol>
+                <a class="text-link" href="assets/experience/ict/i1.JPG" data-open-gallery="ict">Explore the experience <span aria-hidden="true">↗</span>
+                </a>
               </div>
             </article>
-
-            <article class="clean-project-card" data-project="apex">
-              <button class="clean-project-image" aria-label="View Hugmae Hackathon photos">
-                <img src="assets/experience/apex/h1.jpg" alt="Hugmae Hackathon" loading="lazy">
-                <div class="image-overlay"><span>VIEW EXPERIENCE</span><span>↗</span></div>
-                <div class="project-number">02</div>
-              </button>
-              <div class="clean-project-content">
-                <div class="clean-project-top"><span>HACKATHON</span><span>2025 — 2026</span></div>
+            <article class="experience-card" data-project="apex">
+              <a class="experience-cover" href="assets/experience/apex/h1.jpg" data-open-gallery="apex" aria-label="Open Hugmae Hackathon photo gallery">
+                <img src="assets/optimized/experience/apex/h1-640.jpg" alt="Hugmae Hackathon team experience" width="1566" height="1044" loading="lazy" decoding="async" srcset="assets/optimized/experience/apex/h1-640.jpg 640w, assets/optimized/experience/apex/h1-1280.jpg 1280w, assets/optimized/experience/apex/h1-1566.jpg 1566w" sizes="(max-width: 600px) calc(100vw - 36px), (max-width: 900px) 48vw, 580px">
+                <span class="cover-label">8 HACKATHON PHOTOS <span aria-hidden="true">↗</span>
+                </span>
+              </a>
+              <div class="experience-content">
+                <p class="project-kicker">HACKATHON · 2025–2026</p>
                 <h3>Hugmae Hackathon</h3>
-                <p>Developed and presented an AI-powered offline-first rural healthcare concept; selected as a Top 21 National Finalist and participated in a 3-day bootcamp and pitching session.</p>
-                <button class="view-project-btn" onclick="openProject('apex')">View photos →</button>
-              </div>
-            </article>
-
-            <article class="clean-project-card" data-project="indo">
-              <button class="clean-project-image" aria-label="View International Exchange photos">
-                <img src="assets/experience/indo/e1.JPG" alt="International Exchange — Indonesia" loading="lazy">
-                <div class="image-overlay"><span>VIEW EXPERIENCE</span><span>↗</span></div>
-                <div class="project-number">03</div>
-              </button>
-              <div class="clean-project-content">
-                <div class="clean-project-top"><span>EXCHANGE</span><span>SEP 2026</span></div>
-                <h3>International Exchange — Indonesia</h3>
-                <p>Participated in a one-week academic and cultural exchange focused on Deep Learning &amp; AI for Images, collaborating with international students and faculty.</p>
-                <button class="view-project-btn" onclick="openProject('indo')">View photos →</button>
-              </div>
-            </article>
-
-            <article class="clean-project-card" data-project="mfu">
-              <button class="clean-project-image" aria-label="View Mae Fah Luang University photos">
-                <img src="assets/experience/mfu/m1.JPG" alt="Mae Fah Luang University" loading="lazy">
-                <div class="image-overlay"><span>VIEW EXPERIENCE</span><span>↗</span></div>
-                <div class="project-number">04</div>
-              </button>
-              <div class="clean-project-content">
-                <div class="clean-project-top"><span>EDUCATION</span><span>2023 — PRESENT</span></div>
-                <h3>Mae Fah Luang University</h3>
-                <p>Bachelor of Engineering (Computer Engineering) · Outstanding Student Award for academic year 2024-25 · Expected 2028 · GPA 3.98 / 4.00</p>
-                <button class="view-project-btn" onclick="openProject('mfu')">View photos →</button>
+                <p class="project-summary">Developed and presented an AI-powered offline-first rural healthcare concept; selected as a Top 21 National Finalist and participated in a 3-day bootcamp and pitching session.</p>
+                <p class="project-role">
+                  <span>MY ROLE</span>
+                  <strong>Team Leader / Project Manager & Solution Contributor</strong>
+                </p>
+                <a class="text-link" href="assets/experience/apex/h1.jpg" data-open-gallery="apex">View the experience <span aria-hidden="true">↗</span>
+                </a>
               </div>
             </article>
           </div>
-          <div class="credentials">
-            <p class="kicker">CREDENTIALS</p>
-            <a class="credential" href="assets/certificates/HCIA-Datacom.pdf" target="_blank"><span>01</span><div><b>HCIA Datacom</b><small>Huawei · 2026</small></div><em>↗</em></a>
-            <a class="credential" href="assets/certificates/HCCDA-Tech-Essentials.png" target="_blank"><span>02</span><div><b>HCCDA-Tech Essentials</b><small>Huawei Cloud Developer · 2026</small></div><em>↗</em></a>
-            <a class="credential" href="assets/certificates/Huawei-Certificate.pdf" target="_blank"><span>03</span><div><b>Cloud Developer, Level 5</b><small>TPQI / Huawei · 2026</small></div><em>↗</em></a>
-            <div class="credential"><span>04</span><div><b>Outstanding Student Award</b><small>Mae Fah Luang University · 2024–2025</small></div><em>★</em></div>
+          <div class="credentials-section" id="credentials">
+            <div class="credentials-heading">
+              <p class="eyebrow">CREDENTIALS</p>
+              <h3>Knowledge, backed by commitment.</h3>
+            </div>
+            <div class="credential-grid">
+              <div class="credential credential-featured">
+                <span class="credential-index">01 / NETWORKING</span>
+                <strong>HCIP-Datacom</strong>
+                <span>Huawei Certified ICT Professional</span>
+                <span class="credential-type">Professional certification</span>
+              </div>
+              <a class="credential" href="assets/certificates/HCIA-Datacom.pdf" target="_blank" rel="noopener">
+                <span class="credential-index">02 / NETWORKING <span aria-hidden="true">↗</span>
+                </span>
+                <strong>HCIA Datacom</strong>
+                <span>Huawei · 2026</span>
+                <span class="credential-type">View certificate</span>
+              </a>
+              <a class="credential" href="assets/certificates/HCCDA-Tech-Essentials.png" target="_blank" rel="noopener">
+                <span class="credential-index">03 / CLOUD <span aria-hidden="true">↗</span>
+                </span>
+                <strong>HCCDA-Tech Essentials</strong>
+                <span>Huawei Cloud Developer · 2026</span>
+                <span class="credential-type">View certificate</span>
+              </a>
+              <a class="credential" href="assets/certificates/Huawei-Certificate.pdf" target="_blank" rel="noopener">
+                <span class="credential-index">04 / CLOUD <span aria-hidden="true">↗</span>
+                </span>
+                <strong>Cloud Developer, Level 5</strong>
+                <span>TPQI / Huawei · 2026</span>
+                <span class="credential-type">View certificate</span>
+              </a>
+              <div class="credential">
+                <span class="credential-index">05 / ACADEMIC</span>
+                <strong>Outstanding Student Award</strong>
+                <span>Mae Fah Luang University · 2024–2025</span>
+                <span class="credential-type">Academic recognition</span>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section shell language-section">
-      <div class="language-card">
-        <div><p class="kicker">EDUCATION & LANGUAGES</p><h2>Ready to learn<br>in a real team.</h2></div>
-        <div class="language-list">
-          <div><span>English</span><b>Professional · CEFR C1</b></div>
-          <div><span>Burmese</span><b>Native</b></div>
-          <div><span>Thai</span><b>Basic</b></div>
-          <div><span>Chinese</span><b>Basic</b></div>
+      <section class="section shell" id="about" aria-labelledby="about-title">
+        <div class="section-head">
+          <p class="section-number">04 / THE PERSON BEHIND THE WORK</p>
+          <span>EDUCATION · EXPERIENCE · LANGUAGES</span>
         </div>
-      </div>
-    </section>
-
-    <section class="contact-section" id="contact">
-      <div class="shell contact-inner">
-        <div><p class="kicker">05 / CONTACT</p><h2>Let's build<br><em>something useful.</em></h2><p>I'm currently seeking Software Development or AI Engineering internship opportunities where I can contribute, learn quickly and work on real technical problems.</p></div>
-        <div class="contact-links">
-          <a href="mailto:6631501176@lamduan.mfu.ac.th"><span>EMAIL</span>6631501176@lamduan.mfu.ac.th ↗</a>
-          <a href="https://www.linkedin.com/in/minthwaykhant711" target="_blank" rel="noopener"><span>LINKEDIN</span>linkedin.com/in/minthwaykhant711 ↗</a>
-          <a href="https://github.com/minthwaykhant711" target="_blank" rel="noopener"><span>GITHUB</span>github.com/minthwaykhant711 ↗</a>
-          <a href="tel:+66838920778"><span>PHONE</span>+66 83 892 0778 ↗</a>
+        <div class="about-layout">
+          <div>
+            <h2 id="about-title">Curious about systems.<br>
+              <span class="accent">Committed to the team.</span>
+            </h2>
+          </div>
+          <div class="about-copy">
+            <p class="lead-copy">I’m a Computer Engineering student at Mae Fah Luang University, interested in networking and IT infrastructure, software engineering, and AI-driven automation.</p>
+            <p>I learn by building: writing applications, testing ideas, debugging systems, configuring networks, and working with teammates to turn requirements into something usable.</p>
+            <p>As a Team Leader / Project Manager & Developer, I take responsibility for coordination and implementation — planning work, dividing tasks, contributing code, integrating components, and helping the team deliver.</p>
+            <p>I’m preparing for a network engineering internship while continuing to develop my software engineering skills.</p>
+          </div>
         </div>
+        <div class="journey-grid">
+          <article class="journey-entry" data-project="mfu">
+            <p class="project-kicker">2023–PRESENT · EDUCATION</p>
+            <h3>Mae Fah Luang University</h3>
+            <p class="project-summary">Bachelor of Engineering in Computer Engineering. Expected graduation in 2028, with a GPA of 3.98 / 4.00 and the Outstanding Student Award for academic year 2024–2025.</p>
+            <p class="project-role">
+              <span>MY ROLE</span>
+              <strong>Computer Engineering Student</strong>
+            </p>
+            <a class="journey-photo" href="assets/experience/mfu/m1.JPG" data-open-gallery="mfu" aria-label="Open Mae Fah Luang University photo gallery">
+              <img src="assets/optimized/experience/mfu/m1-640.jpg" alt="Mae Fah Luang University experience" width="1920" height="1279" loading="lazy" decoding="async" srcset="assets/optimized/experience/mfu/m1-640.jpg 640w, assets/optimized/experience/mfu/m1-1280.jpg 1280w, assets/optimized/experience/mfu/m1-1920.jpg 1920w" sizes="(max-width: 600px) calc(100vw - 36px), (max-width: 900px) 48vw, 380px">
+              <span>View 2 photos <span aria-hidden="true">↗</span>
+              </span>
+            </a>
+          </article>
+          <article class="journey-entry" id="exchange" data-project="indo">
+            <p class="project-kicker">SEPTEMBER 2026 · EXCHANGE</p>
+            <h3>International Exchange — Indonesia</h3>
+            <p class="project-summary">Participated in a one-week academic and cultural exchange focused on Deep Learning & AI for Images, collaborating with international students and faculty.</p>
+            <p class="project-role">
+              <span>MY ROLE</span>
+              <strong>Exchange Participant</strong>
+            </p>
+            <a class="journey-photo" href="assets/experience/indo/e1.JPG" data-open-gallery="indo" aria-label="Open Indonesia exchange photo gallery">
+              <img src="assets/optimized/experience/indo/e1-640.jpg" alt="Academic and cultural exchange in Indonesia" width="1920" height="1280" loading="lazy" decoding="async" srcset="assets/optimized/experience/indo/e1-640.jpg 640w, assets/optimized/experience/indo/e1-1280.jpg 1280w, assets/optimized/experience/indo/e1-1920.jpg 1920w" sizes="(max-width: 600px) calc(100vw - 36px), (max-width: 900px) 48vw, 380px">
+              <span>View 6 photos <span aria-hidden="true">↗</span>
+              </span>
+            </a>
+          </article>
+          <article class="journey-entry journey-upcoming">
+            <p class="project-kicker">UPCOMING · NEXT CHAPTER</p>
+            <h3>Network engineering internship</h3>
+            <p>Preparing to apply networking knowledge and troubleshooting skills in a professional team, while continuing to build complementary programming and automation skills.</p>
+            <span class="status-tag">Upcoming</span>
+          </article>
+        </div>
+        <div class="language-card">
+          <div>
+            <p class="eyebrow">COMMUNICATION</p>
+            <h3>Ready to learn<br>in a real team.</h3>
+          </div>
+          <dl class="language-list">
+            <div>
+              <dt>English</dt>
+              <dd>Professional · CEFR C1</dd>
+            </div>
+            <div>
+              <dt>Burmese</dt>
+              <dd>Native</dd>
+            </div>
+            <div>
+              <dt>Thai</dt>
+              <dd>Basic</dd>
+            </div>
+            <div>
+              <dt>Chinese</dt>
+              <dd>Basic</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="shell contact-inner">
+          <div>
+            <p class="eyebrow">05 / LET’S CONNECT</p>
+            <h2 id="contact-title">Let’s build<br>something useful<span>.</span>
+            </h2>
+            <p>I’m interested in engineering work across networking, infrastructure, software, cloud, and automation. Have an opportunity, a project, or a technical conversation in mind? I’d be glad to hear from you.</p>
+            <a class="button button-main" href="assets/Min-Thway-Khant-Resume.pdf" download>Download résumé <span aria-hidden="true">↓</span>
+            </a>
+            <a class="contact-resume-view" href="assets/Min-Thway-Khant-Resume.pdf" target="_blank" rel="noopener">Or open it in a new tab <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="contact-links">
+            <div class="email-row">
+              <a id="email-link" href="mailto:6631501176@lamduan.mfu.ac.th">
+                <span class="contact-label">EMAIL</span>
+                <span>
+                  <span class="email-address">6631501176@lamduan.mfu.ac.th</span>
+                  <span aria-hidden="true">↗</span>
+                </span>
+              </a>
+              <button class="copy-email" type="button" aria-label="Copy email address" hidden>Copy</button>
+            </div>
+            <p class="copy-status" role="status" aria-live="polite" aria-atomic="true">
+            </p>
+            <a href="https://www.linkedin.com/in/minthwaykhant711" target="_blank" rel="noopener">
+              <span class="contact-label">LINKEDIN</span>
+              <span>linkedin.com/in/minthwaykhant711 <span aria-hidden="true">↗</span>
+              </span>
+            </a>
+            <a href="https://github.com/minthwaykhant711" target="_blank" rel="noopener">
+              <span class="contact-label">GITHUB</span>
+              <span>github.com/minthwaykhant711 <span aria-hidden="true">↗</span>
+              </span>
+            </a>
+            <a href="tel:+66838920778">
+              <span class="contact-label">PHONE</span>
+              <span>+66 83 892 0778 <span aria-hidden="true">↗</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer shell">
+      <span>© 2026 MIN THWAY KHANT</span>
+      <span>COMPUTER ENGINEERING · THAILAND</span>
+      <a href="#top">Back to top <span aria-hidden="true">↑</span>
+      </a>
+    </footer>
+
+    <dialog class="modal" id="projectModal" aria-labelledby="modalTitle">
+      <div class="modal-top">
+        <p class="eyebrow" id="modalKicker">
+        </p>
+        <button class="modal-close icon-button" type="button" aria-label="Close project gallery" autofocus>×</button>
       </div>
-    </section>
-  </main>
-
-  <footer class="footer shell"><span>© 2026 MIN THWAY KHANT</span><span>COMPUTER ENGINEERING · THAILAND</span><a href="#top">BACK TO TOP ↑</a></footer>
-
-  <div class="modal" id="projectModal" aria-hidden="true">
-    <div class="modal-backdrop" data-close></div>
-    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-      <button class="modal-close" data-close aria-label="Close project gallery">×</button>
       <div class="modal-content">
-        <div class="modal-image-wrap"><img id="modalImage" src="" alt=""><video id="modalVideo" controls playsinline preload="metadata"></video><button class="gallery-arrow gallery-prev" aria-label="Previous image">←</button><button class="gallery-arrow gallery-next" aria-label="Next image">→</button></div>
-        <div class="modal-details"><p class="kicker" id="modalKicker"></p><h2 id="modalTitle"></h2><p id="modalDescription"></p><div class="modal-role" id="modalRole"></div><div class="modal-counter" id="modalCounter"></div></div>
+        <div class="gallery">
+          <div class="modal-image-wrap">
+            <img id="modalImage" alt="" decoding="async" hidden>
+            <video id="modalVideo" controls playsinline preload="metadata" hidden>
+            </video>
+            <p id="mediaStatus" class="media-status" role="status" aria-live="polite" aria-atomic="true">
+            </p>
+          </div>
+          <div class="gallery-controls">
+            <button class="gallery-prev icon-button" type="button" aria-label="Previous media">←</button>
+            <p id="modalCounter" aria-live="polite" aria-atomic="true">
+            </p>
+            <button class="gallery-next icon-button" type="button" aria-label="Next media">→</button>
+          </div>
+          <p class="gallery-caption" id="mediaCaption">
+          </p>
+          <a class="original-link" id="originalMedia" target="_blank" rel="noopener">Open original media <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="modal-details">
+          <h2 id="modalTitle">
+          </h2>
+          <p id="modalDescription">
+          </p>
+          <p class="modal-role" id="modalRole">
+          </p>
+          <div id="modalCaseStudy">
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-
-</body>
+    </dialog>
+  </body>
 </html>

@@ -1,0 +1,961 @@
+{
+  "assets/experience/apex/h1.jpg": {
+    "originalBytes": 376606,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/apex/h1-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 56044
+      },
+      {
+        "src": "assets/optimized/experience/apex/h1-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 258581
+      },
+      {
+        "src": "assets/optimized/experience/apex/h1-1566.jpg",
+        "width": 1566,
+        "height": 1044,
+        "bytes": 420882
+      }
+    ]
+  },
+  "assets/experience/apex/h2.jpg": {
+    "originalBytes": 1583085,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/apex/h2-640.jpg",
+        "width": 640,
+        "height": 427,
+        "bytes": 67442
+      },
+      {
+        "src": "assets/optimized/experience/apex/h2-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 194193
+      },
+      {
+        "src": "assets/optimized/experience/apex/h2-1920.jpg",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 394543
+      }
+    ]
+  },
+  "assets/experience/apex/h3.jpg": {
+    "originalBytes": 926754,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/apex/h3-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 54736
+      },
+      {
+        "src": "assets/optimized/experience/apex/h3-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 157185
+      },
+      {
+        "src": "assets/optimized/experience/apex/h3-1920.jpg",
+        "width": 1920,
+        "height": 1279,
+        "bytes": 293650
+      }
+    ]
+  },
+  "assets/experience/apex/h4.jpg": {
+    "originalBytes": 1338730,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/apex/h4-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 78036
+      },
+      {
+        "src": "assets/optimized/experience/apex/h4-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 239342
+      },
+      {
+        "src": "assets/optimized/experience/apex/h4-1920.jpg",
+        "width": 1920,
+        "height": 1279,
+        "bytes": 455020
+      }
+    ]
+  },
+  "assets/experience/apex/h5.jpg": {
+    "originalBytes": 1424639,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/apex/h5-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 64020
+      },
+      {
+        "src": "assets/optimized/experience/apex/h5-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 189784
+      },
+      {
+        "src": "assets/optimized/experience/apex/h5-1920.jpg",
+        "width": 1920,
+        "height": 1279,
+        "bytes": 365634
+      }
+    ]
+  },
+  "assets/experience/apex/h6.jpg": {
+    "originalBytes": 1224093,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/apex/h6-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 58594
+      },
+      {
+        "src": "assets/optimized/experience/apex/h6-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 167694
+      },
+      {
+        "src": "assets/optimized/experience/apex/h6-1920.jpg",
+        "width": 1920,
+        "height": 1279,
+        "bytes": 309138
+      }
+    ]
+  },
+  "assets/experience/apex/h7.jpg": {
+    "originalBytes": 2453132,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/apex/h7-640.jpg",
+        "width": 640,
+        "height": 427,
+        "bytes": 128706
+      },
+      {
+        "src": "assets/optimized/experience/apex/h7-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 405043
+      },
+      {
+        "src": "assets/optimized/experience/apex/h7-1920.jpg",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 833856
+      }
+    ]
+  },
+  "assets/experience/apex/h8.jpg": {
+    "originalBytes": 2367341,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/apex/h8-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 98858
+      },
+      {
+        "src": "assets/optimized/experience/apex/h8-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 369299
+      },
+      {
+        "src": "assets/optimized/experience/apex/h8-1920.jpg",
+        "width": 1920,
+        "height": 1279,
+        "bytes": 765200
+      }
+    ]
+  },
+  "assets/experience/ict/i1.JPG": {
+    "originalBytes": 426050,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/ict/i1-640.jpg",
+        "width": 640,
+        "height": 427,
+        "bytes": 70008
+      },
+      {
+        "src": "assets/optimized/experience/ict/i1-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 195076
+      },
+      {
+        "src": "assets/optimized/experience/ict/i1-1920.jpg",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 410710
+      }
+    ]
+  },
+  "assets/experience/ict/i2.JPG": {
+    "originalBytes": 220984,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/ict/i2-640.jpg",
+        "width": 640,
+        "height": 427,
+        "bytes": 57093
+      },
+      {
+        "src": "assets/optimized/experience/ict/i2-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 157007
+      },
+      {
+        "src": "assets/optimized/experience/ict/i2-1567.jpg",
+        "width": 1567,
+        "height": 1045,
+        "bytes": 211819
+      }
+    ]
+  },
+  "assets/experience/ict/i3.jpg": {
+    "originalBytes": 363042,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/ict/i3-640.jpg",
+        "width": 640,
+        "height": 360,
+        "bytes": 80502
+      },
+      {
+        "src": "assets/optimized/experience/ict/i3-1280.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 223190
+      },
+      {
+        "src": "assets/optimized/experience/ict/i3-1415.jpg",
+        "width": 1415,
+        "height": 796,
+        "bytes": 269744
+      }
+    ]
+  },
+  "assets/experience/ict/i4.JPG": {
+    "originalBytes": 4666150,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/ict/i4-640.jpg",
+        "width": 640,
+        "height": 480,
+        "bytes": 64340
+      },
+      {
+        "src": "assets/optimized/experience/ict/i4-1280.jpg",
+        "width": 1280,
+        "height": 960,
+        "bytes": 196790
+      },
+      {
+        "src": "assets/optimized/experience/ict/i4-1920.jpg",
+        "width": 1920,
+        "height": 1440,
+        "bytes": 378784
+      }
+    ]
+  },
+  "assets/experience/ict/i5.JPG": {
+    "originalBytes": 294558,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/ict/i5-640.jpg",
+        "width": 640,
+        "height": 427,
+        "bytes": 76317
+      },
+      {
+        "src": "assets/optimized/experience/ict/i5-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 211098
+      },
+      {
+        "src": "assets/optimized/experience/ict/i5-1567.jpg",
+        "width": 1567,
+        "height": 1045,
+        "bytes": 284052
+      }
+    ]
+  },
+  "assets/experience/ict/i6.JPG": {
+    "originalBytes": 2319146,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/ict/i6-640.jpg",
+        "width": 640,
+        "height": 853,
+        "bytes": 97001
+      },
+      {
+        "src": "assets/optimized/experience/ict/i6-1280.jpg",
+        "width": 1280,
+        "height": 1707,
+        "bytes": 274778
+      },
+      {
+        "src": "assets/optimized/experience/ict/i6-1920.jpg",
+        "width": 1920,
+        "height": 2560,
+        "bytes": 524931
+      }
+    ]
+  },
+  "assets/experience/indo/e1.JPG": {
+    "originalBytes": 4756833,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/indo/e1-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 63389
+      },
+      {
+        "src": "assets/optimized/experience/indo/e1-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 174626
+      },
+      {
+        "src": "assets/optimized/experience/indo/e1-1920.jpg",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 340274
+      }
+    ]
+  },
+  "assets/experience/indo/e2.JPG": {
+    "originalBytes": 16322805,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/indo/e2-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 97817
+      },
+      {
+        "src": "assets/optimized/experience/indo/e2-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 293916
+      },
+      {
+        "src": "assets/optimized/experience/indo/e2-1920.jpg",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 578858
+      }
+    ]
+  },
+  "assets/experience/indo/e3.JPG": {
+    "originalBytes": 12549978,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/indo/e3-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 58348
+      },
+      {
+        "src": "assets/optimized/experience/indo/e3-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 161156
+      },
+      {
+        "src": "assets/optimized/experience/indo/e3-1920.jpg",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 369899
+      }
+    ]
+  },
+  "assets/experience/indo/e4.JPG": {
+    "originalBytes": 14417159,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/indo/e4-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 99158
+      },
+      {
+        "src": "assets/optimized/experience/indo/e4-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 294138
+      },
+      {
+        "src": "assets/optimized/experience/indo/e4-1920.jpg",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 615626
+      }
+    ]
+  },
+  "assets/experience/indo/e5.JPG": {
+    "originalBytes": 12458482,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/indo/e5-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 56857
+      },
+      {
+        "src": "assets/optimized/experience/indo/e5-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 157981
+      },
+      {
+        "src": "assets/optimized/experience/indo/e5-1920.jpg",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 367836
+      }
+    ]
+  },
+  "assets/experience/indo/e6.JPG": {
+    "originalBytes": 15709690,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/indo/e6-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 110221
+      },
+      {
+        "src": "assets/optimized/experience/indo/e6-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 395309
+      },
+      {
+        "src": "assets/optimized/experience/indo/e6-1920.jpg",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 865760
+      }
+    ]
+  },
+  "assets/experience/mfu/m1.JPG": {
+    "originalBytes": 502438,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/mfu/m1-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 101346
+      },
+      {
+        "src": "assets/optimized/experience/mfu/m1-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 307696
+      },
+      {
+        "src": "assets/optimized/experience/mfu/m1-1920.jpg",
+        "width": 1920,
+        "height": 1279,
+        "bytes": 549252
+      }
+    ]
+  },
+  "assets/experience/mfu/m2.JPG": {
+    "originalBytes": 365666,
+    "variants": [
+      {
+        "src": "assets/optimized/experience/mfu/m2-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 85036
+      },
+      {
+        "src": "assets/optimized/experience/mfu/m2-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 240220
+      },
+      {
+        "src": "assets/optimized/experience/mfu/m2-1920.jpg",
+        "width": 1920,
+        "height": 1279,
+        "bytes": 422806
+      }
+    ]
+  },
+  "assets/projects/assetmanage/asset-browse.png": {
+    "originalBytes": 1777517,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-browse-640.jpg",
+        "width": 640,
+        "height": 382,
+        "bytes": 71050
+      },
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-browse-1280.jpg",
+        "width": 1280,
+        "height": 764,
+        "bytes": 206679
+      },
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-browse-1920.jpg",
+        "width": 1920,
+        "height": 1146,
+        "bytes": 375494
+      }
+    ]
+  },
+  "assets/projects/assetmanage/asset-details.png": {
+    "originalBytes": 1122911,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-details-640.jpg",
+        "width": 640,
+        "height": 383,
+        "bytes": 57330
+      },
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-details-1280.jpg",
+        "width": 1280,
+        "height": 765,
+        "bytes": 150091
+      },
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-details-1920.jpg",
+        "width": 1920,
+        "height": 1148,
+        "bytes": 276422
+      }
+    ]
+  },
+  "assets/projects/assetmanage/asset-history.png": {
+    "originalBytes": 393955,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-history-640.jpg",
+        "width": 640,
+        "height": 383,
+        "bytes": 29175
+      },
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-history-1280.jpg",
+        "width": 1280,
+        "height": 765,
+        "bytes": 78800
+      },
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-history-1920.jpg",
+        "width": 1920,
+        "height": 1148,
+        "bytes": 148473
+      }
+    ]
+  },
+  "assets/projects/assetmanage/asset-login.png": {
+    "originalBytes": 3723869,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-login-640.jpg",
+        "width": 640,
+        "height": 382,
+        "bytes": 32725
+      },
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-login-1280.jpg",
+        "width": 1280,
+        "height": 765,
+        "bytes": 123553
+      },
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-login-1920.jpg",
+        "width": 1920,
+        "height": 1147,
+        "bytes": 281052
+      }
+    ]
+  },
+  "assets/projects/assetmanage/asset-register.png": {
+    "originalBytes": 2222107,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-register-640.jpg",
+        "width": 640,
+        "height": 381,
+        "bytes": 37063
+      },
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-register-1280.jpg",
+        "width": 1280,
+        "height": 763,
+        "bytes": 119902
+      },
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-register-1920.jpg",
+        "width": 1920,
+        "height": 1144,
+        "bytes": 233704
+      }
+    ]
+  },
+  "assets/projects/assetmanage/asset-return.png": {
+    "originalBytes": 434835,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-return-640.jpg",
+        "width": 640,
+        "height": 382,
+        "bytes": 29990
+      },
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-return-1280.jpg",
+        "width": 1280,
+        "height": 764,
+        "bytes": 86306
+      },
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-return-1920.jpg",
+        "width": 1920,
+        "height": 1146,
+        "bytes": 159173
+      }
+    ]
+  },
+  "assets/projects/assetmanage/asset-staff.png": {
+    "originalBytes": 439582,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-staff-640.jpg",
+        "width": 640,
+        "height": 384,
+        "bytes": 42965
+      },
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-staff-1280.jpg",
+        "width": 1280,
+        "height": 769,
+        "bytes": 115271
+      },
+      {
+        "src": "assets/optimized/projects/assetmanage/asset-staff-1920.jpg",
+        "width": 1920,
+        "height": 1154,
+        "bytes": 204008
+      }
+    ]
+  },
+  "assets/projects/hcia-elearning/enroll.png": {
+    "originalBytes": 1180640,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/hcia-elearning/enroll-640.jpg",
+        "width": 640,
+        "height": 384,
+        "bytes": 61403
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/enroll-1280.jpg",
+        "width": 1280,
+        "height": 769,
+        "bytes": 187868
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/enroll-1920.jpg",
+        "width": 1920,
+        "height": 1154,
+        "bytes": 341737
+      }
+    ]
+  },
+  "assets/projects/hcia-elearning/login.png": {
+    "originalBytes": 3344641,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/hcia-elearning/login-640.jpg",
+        "width": 640,
+        "height": 383,
+        "bytes": 55185
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/login-1280.jpg",
+        "width": 1280,
+        "height": 767,
+        "bytes": 192273
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/login-1920.jpg",
+        "width": 1920,
+        "height": 1150,
+        "bytes": 365604
+      }
+    ]
+  },
+  "assets/projects/hcia-elearning/register.png": {
+    "originalBytes": 3394003,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/hcia-elearning/register-640.jpg",
+        "width": 640,
+        "height": 384,
+        "bytes": 62442
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/register-1280.jpg",
+        "width": 1280,
+        "height": 769,
+        "bytes": 219100
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/register-1920.jpg",
+        "width": 1920,
+        "height": 1153,
+        "bytes": 395041
+      }
+    ]
+  },
+  "assets/projects/hcia-elearning/student_dashboard.png": {
+    "originalBytes": 1424406,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/hcia-elearning/student_dashboard-640.jpg",
+        "width": 640,
+        "height": 383,
+        "bytes": 65408
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/student_dashboard-1280.jpg",
+        "width": 1280,
+        "height": 766,
+        "bytes": 177888
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/student_dashboard-1920.jpg",
+        "width": 1920,
+        "height": 1149,
+        "bytes": 315798
+      }
+    ]
+  },
+  "assets/projects/hcia-elearning/student_learning.png": {
+    "originalBytes": 605452,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/hcia-elearning/student_learning-640.jpg",
+        "width": 640,
+        "height": 381,
+        "bytes": 57416
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/student_learning-1280.jpg",
+        "width": 1280,
+        "height": 761,
+        "bytes": 145695
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/student_learning-1920.jpg",
+        "width": 1920,
+        "height": 1142,
+        "bytes": 251055
+      }
+    ]
+  },
+  "assets/projects/hcia-elearning/student_mock.png": {
+    "originalBytes": 489447,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/hcia-elearning/student_mock-640.jpg",
+        "width": 640,
+        "height": 383,
+        "bytes": 47474
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/student_mock-1280.jpg",
+        "width": 1280,
+        "height": 766,
+        "bytes": 136621
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/student_mock-1920.jpg",
+        "width": 1920,
+        "height": 1149,
+        "bytes": 243074
+      }
+    ]
+  },
+  "assets/projects/hcia-elearning/student_quiz.png": {
+    "originalBytes": 416269,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/hcia-elearning/student_quiz-640.jpg",
+        "width": 640,
+        "height": 385,
+        "bytes": 54861
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/student_quiz-1280.jpg",
+        "width": 1280,
+        "height": 769,
+        "bytes": 142323
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/student_quiz-1920.jpg",
+        "width": 1920,
+        "height": 1154,
+        "bytes": 240495
+      }
+    ]
+  },
+  "assets/projects/hcia-elearning/welcome.png": {
+    "originalBytes": 3925363,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/hcia-elearning/welcome-640.jpg",
+        "width": 640,
+        "height": 382,
+        "bytes": 60053
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/welcome-1280.jpg",
+        "width": 1280,
+        "height": 764,
+        "bytes": 203871
+      },
+      {
+        "src": "assets/optimized/projects/hcia-elearning/welcome-1920.jpg",
+        "width": 1920,
+        "height": 1146,
+        "bytes": 400314
+      }
+    ]
+  },
+  "assets/projects/profile_photo.jpg": {
+    "originalBytes": 376606,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/profile_photo-640.jpg",
+        "width": 640,
+        "height": 426,
+        "bytes": 56044
+      },
+      {
+        "src": "assets/optimized/projects/profile_photo-1280.jpg",
+        "width": 1280,
+        "height": 853,
+        "bytes": 258581
+      },
+      {
+        "src": "assets/optimized/projects/profile_photo-1566.jpg",
+        "width": 1566,
+        "height": 1044,
+        "bytes": 420882
+      }
+    ]
+  },
+  "assets/projects/roomreservation/login.png": {
+    "originalBytes": 498735,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/roomreservation/login-640.jpg",
+        "width": 640,
+        "height": 1283,
+        "bytes": 110871
+      },
+      {
+        "src": "assets/optimized/projects/roomreservation/login-694.jpg",
+        "width": 694,
+        "height": 1392,
+        "bytes": 129302
+      }
+    ]
+  },
+  "assets/projects/roomreservation/room-add.png": {
+    "originalBytes": 228230,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/roomreservation/room-add-640.jpg",
+        "width": 640,
+        "height": 1276,
+        "bytes": 100596
+      },
+      {
+        "src": "assets/optimized/projects/roomreservation/room-add-708.jpg",
+        "width": 708,
+        "height": 1412,
+        "bytes": 122792
+      }
+    ]
+  },
+  "assets/projects/roomreservation/room-booking-history.png": {
+    "originalBytes": 275088,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/roomreservation/room-booking-history-640.jpg",
+        "width": 640,
+        "height": 1236,
+        "bytes": 156457
+      },
+      {
+        "src": "assets/optimized/projects/roomreservation/room-booking-history-726.jpg",
+        "width": 726,
+        "height": 1402,
+        "bytes": 182860
+      }
+    ]
+  },
+  "assets/projects/roomreservation/room-management.png": {
+    "originalBytes": 482530,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/roomreservation/room-management-640.jpg",
+        "width": 640,
+        "height": 1291,
+        "bytes": 175774
+      },
+      {
+        "src": "assets/optimized/projects/roomreservation/room-management-706.jpg",
+        "width": 706,
+        "height": 1424,
+        "bytes": 207260
+      }
+    ]
+  },
+  "assets/projects/roomreservation/room-requests.png": {
+    "originalBytes": 215373,
+    "variants": [
+      {
+        "src": "assets/optimized/projects/roomreservation/room-requests-640.jpg",
+        "width": 640,
+        "height": 1293,
+        "bytes": 102714
+      },
+      {
+        "src": "assets/optimized/projects/roomreservation/room-requests-694.jpg",
+        "width": 694,
+        "height": 1402,
+        "bytes": 118649
+      }
+    ]
+  }
+}
